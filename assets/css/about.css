@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.back-btn {
+  position: fixed;
+  top: 5px;
+  left: 10px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: transparent;
+  color: rgb(48, 47, 47);
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.About-search {
+  margin: 0px;
+  padding: 0px;
+}
+
+.about {
+  background-image: url(../image/hero-about-living-room-1536x864.png);
+  height: 100vh;
+  background-position: 100% 100%;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+.layer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.499);
+  width: 100%;
+  height: 100%;
+}
+
+.titles {
+  margin-left: 50px;
+  z-index: 5;
+
+}
+
+.main-title {
+  padding: 20px;
+}
+
+.sub-title {
+  margin-left: 30px;
+}
+
+.secondAbout {
+  height: 200px;
+}
+
+.secondAbout h1 {
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+
+}
+
+.secondAbout p {
+  margin: 20px;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.thirdAbout {
+  background-image: url(../image/mission-bg-image-new-1536x864.jpg);
+  background-position: 100% 100%;
+  background-attachment: fixed;
+  background-size: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F8BD03;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+
+
+.contact {
+  padding: 50px 20px;
+  background-color: black;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1 1 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.alert {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: red;
+  background-color: #ffe5e5;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+
+
+#submitBt {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 25px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submitBt:hover {
+  background-color: #333;
+}

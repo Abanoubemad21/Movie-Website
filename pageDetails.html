@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="import" href="index.html">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/aboutsearch.css">
+    <title>Page Details</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navbar ">
+            <img src="assets/image/logo.jpg" alt="Logo">
+
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tvPage.html">Tv</a></li>
+                <li><a href="index.html">Movies</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li>
+                    <input type="text" id="searchInput" placeholder="Search movies...">
+                    <button id="searchButton"><i class="fa fa-search"></i></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="movies-container" id="searchResults"></div>
+    <div id="decription" class="movie-details">
+    </div>
+    <script src="assets/JS/script.js"></script>
+    <script src="assets/JS/aboutScript.js"></script>
+    <script src="assets/JS/movdescription.js"></script>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</body>
+
+</html>
