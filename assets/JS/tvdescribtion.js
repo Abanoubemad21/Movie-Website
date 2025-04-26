@@ -181,5 +181,5 @@ function searchMovies(searchTerm) {
     });
 }
 function redirectToDetails(movieId) {
-    window.location.href = `pageDetails.html?movieId=${movieId}`;
+    window.location.href = `tvdesciption.html?movieId=${movieId}`;
 }
